@@ -110,7 +110,7 @@ class Subject {
   _convertTime = (string, isEnd) => {
     string = string.padEnd(3, '0');
 
-    const time = +string;
+    let time = +string;
     if (this._timeIsPM(time, isEnd)) time += 1200;
 
     string = time.toString();
