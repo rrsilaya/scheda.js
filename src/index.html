@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Sample</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <canvas id="scheda"></canvas>
+  <script src="../dist/bundle.js"></script>
+  <script>
+    const scheda = new Scheda();
+    scheda.init();
+
+    scheda.add({
+      day: 'M',
+      time: '8:30-9:45',
+      courseCode: 'CMSC 142',
+      section: 'UV-4L',
+      room: 'Physical Sciences Bldg.'
+    });
+    scheda.add({
+      day: 'M',
+      time: '7:00-8:30',
+      courseCode: 'CMSC 142',
+      section: 'UV-4L',
+      room: 'Physical Sciences Bldg.'
+    });
+  </script>
+</body>
+</html>
