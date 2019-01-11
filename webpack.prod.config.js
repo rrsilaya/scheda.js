@@ -4,7 +4,7 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const config = {
   entry: './src/index.js',
   output: {
-    filename: 'bundle.min.js',
+    filename: 'scheda.min.js',
     path: path.resolve(__dirname, 'dist'),
     library: 'Scheda',
     libraryExport: 'default'
