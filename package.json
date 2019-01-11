@@ -1,13 +1,20 @@
 {
-  "dependencies": {
+  "name": "scheda.js",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "rrsilaya <rrsilaya@up.edu.ph>",
+  "license": "MIT",
+  "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/plugin-proposal-class-properties": "^7.2.3",
     "@babel/preset-env": "^7.2.3",
     "babel-loader": "^8.0.5",
-    "lodash.merge": "^4.6.1",
     "uglifyjs-webpack-plugin": "^2.1.1",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "lodash.merge": "^4.6.1"
   },
   "scripts": {
     "start": "webpack --watch",
