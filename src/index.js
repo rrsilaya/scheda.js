@@ -25,8 +25,8 @@ class Scheda {
     this.config = merge(this.config, config); // override default config
   }
 
-  init = () => {
-    this.canvas = document.getElementById(this.config.id);
+  init = canvas => {
+    this.canvas = canvas || document.getElementById(this.config.id);
 
     if (this.canvas) {
       const { dimensions, theme } = this.config;
