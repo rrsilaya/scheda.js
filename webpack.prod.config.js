@@ -7,7 +7,8 @@ const config = {
     filename: 'scheda.min.js',
     path: path.resolve(__dirname, 'dist'),
     library: 'Scheda',
-    libraryExport: 'default'
+    libraryExport: 'default',
+    libraryTarget: 'commonjs2',
   },
   mode: 'production',
   module: {

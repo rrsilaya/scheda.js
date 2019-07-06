@@ -1,7 +1,7 @@
 {
   "name": "scheda.js",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "dist/scheda.min.js",
   "author": "rrsilaya <rrsilaya@up.edu.ph>",
   "license": "MIT",
   "devDependencies": {
