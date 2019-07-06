@@ -25,6 +25,8 @@ Make sure to include the canvas element somewhere in your HTML code as `<canvas 
 `Scheda` constructor can accept a configuration object.
 
 ```javascript
+import Scheda from 'scheda.js';
+
 const config = {
   id: 'my-schedule',                // custom canvas ID
   colors: ['#000000', '#ff0000'],   // array of preset course colors
