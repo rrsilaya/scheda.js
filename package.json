@@ -14,7 +14,7 @@
     "webpack-cli": "^3.2.1"
   },
   "dependencies": {
-    "lodash.merge": "^4.6.1"
+    "lodash.merge": "^4.6.2"
   },
   "scripts": {
     "start": "webpack --watch",
