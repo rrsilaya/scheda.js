@@ -1,5 +1,5 @@
 {
-  "name": "scheda.js",
+  "name": "@rrsilaya/scheda",
   "version": "1.0.0",
   "main": "dist/scheda.min.js",
   "author": "rrsilaya <rrsilaya@gmail.com>",
@@ -19,5 +19,14 @@
   "scripts": {
     "start": "webpack --watch",
     "build": "webpack -p --config webpack.prod.config.js"
-  }
+  },
+  "description": "Fork of @ravenjohn's [scheda.js](https://github.com/ravenjohn/scheda.js), rewritten in ES6 syntax. Create SystemOne-inspired schedule timetable!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrsilaya/scheda.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rrsilaya/scheda.js/issues"
+  },
+  "homepage": "https://github.com/rrsilaya/scheda.js#readme"
 }
